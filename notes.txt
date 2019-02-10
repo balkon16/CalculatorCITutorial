@@ -11,3 +11,14 @@ Things to remember: two blank lines before a function being defined; indentation
 Before you run a test create a test file called test_file_to_be_tested.py. For instance, if you want to test calculator.py write your test in test_calculator.py.
 
 $ pytest -v --cov
+
+
+CircleCI
+
+Create .ciricleci directory and a config.yml file inside.
+
+jobs: if you have only one job it must be called build.
+
+checkout: check the source code out to the working directory
+
+| - one command per line
