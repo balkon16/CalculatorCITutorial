@@ -1,0 +1,13 @@
+flake8 - used to check if your code conforms to the standard Python coding style
+pytest - used for unit testing (checking a single function)
+
+Code coverage - what is the percentage of your code covered by test? Library that is used in this area is pytest-cov.
+
+In order to check for coding style violants in a file.py:
+$ flake8 file.py --statistics 
+
+Things to remember: two blank lines before a function being defined; indentation is 4 spaces (not a tab).
+
+Before you run a test create a test file called test_file_to_be_tested.py. For instance, if you want to test calculator.py write your test in test_calculator.py.
+
+$ pytest -v --cov
